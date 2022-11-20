@@ -1,0 +1,13 @@
+
+version: 2
+
+sources:
+    -   name: db_model
+        database: dbtest
+        schema: dbo
+       
+        tables: 
+            -   name: customers
+            -   name: products
+            -   name: orders
+            

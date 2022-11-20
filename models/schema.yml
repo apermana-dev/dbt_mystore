@@ -1,0 +1,8 @@
+
+version: 2
+
+models:
+    - name: v_join_orders
+    - name: v_pivot_orders
+
+
