@@ -2,7 +2,7 @@ name: "test2"
 version: "1.0.0"
 config-version: 2
 
-profile: "normalize"
+profile: "mystore_public"
 
 model-paths: ["models"]
 
