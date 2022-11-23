@@ -1,0 +1,22 @@
+name: "join_order_transform"
+version: "1.0"
+config-version: 2
+
+profile: "normalize"
+
+model-paths: ["models"]
+
+target-path: "../build" # directory which will store compiled SQL files
+log-path: "../logs" # directory which will store DBT logs
+packages-install-path: "/dbt" # directory which will store external DBT dependencies
+
+clean-targets: # directories to be removed by `dbt clean`
+  - "build"
+  - "dbt_modules"
+
+quoting:
+  database: true
+  schema: true
+  identifier: true
+
+
