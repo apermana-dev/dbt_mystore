@@ -2,8 +2,8 @@ name: "join_order_transform"
 version: "1.0"
 config-version: 2
 
-profile: "tdi_project" 
-#"normalize"
+#check this profile also in airbyte-integrations\bases\base-normalization\normalization\transform_config\profile_base.yml
+profile: "tdi_project" #"normalize"
 
 model-paths: ["models"]
 
